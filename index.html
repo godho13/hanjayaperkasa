@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PT Han jaya Perkasa - Produsen Baja Ringan Terpercaya</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <style>
+        :root {
+            --primary-color: #004a8d;
+            --secondary-color: #f8f9fa;
+        }
+        
+        body {
+            font-family: 'Arial', sans-serif;
+        }
+        
+        .navbar {
+            background-color: var(--primary-color) !important;
+        }
+        
+        .hero-section {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                        url('images/pbrk.jpg');
+            background-size: cover;
+            height: 80vh;
+            display: flex;
+            align-items: center;
+            color: white;
+        }
+        
+        .product-card {
+            transition: transform 0.3s;
+            border: 1px solid #ddd;
+        }
+        
+        .product-card:hover {
+            transform: translateY(-10px);
+        }
+        
+        .section-title {
+            color: var(--primary-color);
+            border-bottom: 3px solid var(--primary-color);
+            display: inline-block;
+            padding-bottom: 10px;
+        }
+        
+        .contact-section {
+            background-color: var(--secondary-color);
+        }
+        
+        .footer {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 40px 0;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark">
+    <div class="container">
+        <a class="navbar-brand" href="#">
+            <img src="images/logo.png" 
+            alt="Logo PT Han jaya Perkasa" 
+            width="50" 
+            height="50"
+            class="d-inline-block align-top">
+   </a>
+            PT. HAN JAYA PERKASA</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="#home">Beranda</a></li>
+                <li class="nav-item"><a class="nav-link" href="#about">Tentang</a></li>
+                <li class="nav-item"><a class="nav-link" href="#products">Produk</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Kontak</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero-section" id="home">
+    <div class="container text-center">
+        <h1 class="display-4 mb-4">Spesialis Baja Ringan Berkualitas Tinggi</h1>
+        <p class="lead">Menyediakan solusi konstruksi baja ringan sejak 2005</p>
+        <a href="#contact" class="btn btn-primary btn-lg mt-3">Hubungi Kami</a>
+    </div>
+</section>
+
+<!-- About Section -->
+<section class="py-5" id="about">
+    <div class="container">
+        <h2 class="section-title mb-5">Tentang Kami</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <img src="images/kntr.jpg" 
+                     alt="Pabrik Baja" class="img-fluid rounded">
+            </div>
+            <div class="col-md-6">
+                <h3>PT Han jaya Perkasa</h3>
+                <p>Perusahaan spesialis produsen baja ringan dengan pengalaman lebih dari 18 tahun dalam menyediakan material konstruksi berkualitas tinggi. Kami berkomitmen untuk menyediakan produk baja ringan dengan standar internasional dan harga kompetitif.</p>
+                <ul class="list-unstyled">
+                    <li><strong>✓</strong> Bersertifikat SNI dan ISO</li>
+                    <li><strong>✓</strong> Garansi 10 tahun</li>
+                    <li><strong>✓</strong> Kapasitas produksi 5000 ton/bulan</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Products Section -->
+<!-- Di dalam file HTML (bagian product section) -->
+<section class="py-5" id="products">
+    <div class="container">
+        <h2 class="section-title mb-4">Produk Kami</h2>
+        
+        <div class="products-container">
+            <div class="product-scroll-wrapper">
+                <!-- Product 1 -->
+                <div class="product-item">
+                    <div class="card">
+                        <img src="images/1.jpg" class="card-img-top" alt="Baja Ringan Tipe A">
+                        <div class="card-body">
+                            <h5 class="card-title">Rangka Atap Baja Ringan Tipe A</h5>
+                            <p class="card-text">
+                                Ketebalan: 0.45mm<br>
+                                Panjang: 6 Meter<br>
+                                Warna: Galvanized
+                            </p>
+                            <button class="btn btn-primary">Detail Produk</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="product-item">
+                    <div class="card">
+                        <img src="images/2.jpg" class="card-img-top" alt="Baja Ringan Tipe B">
+                        <div class="card-body">
+                            <h5 class="card-title">Rangka Atap Baja Ringan Tipe B</h5>
+                            <p class="card-text">
+                                Ketebalan: 0.50mm<br>
+                                Panjang: 6 Meter<br>
+                                Warna: Galvanized
+                            </p>
+                            <button class="btn btn-primary">Detail Produk</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+                <!-- Product 3 -->
+                <div class="product-item">
+                    <div class="card">
+                        <img src="images/3.jpg" class="card-img-top" alt="Baja Ringan Tipe B">
+                        <div class="card-body">
+                            <h5 class="card-title">Rangka Atap Baja Ringan Tipe B</h5>
+                            <p class="card-text">
+                                Ketebalan: 0.50mm<br>
+                                Panjang: 6 Meter<br>
+                                Warna: Galvanized
+                            </p>
+                            <button class="btn btn-primary">Detail Produk</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+                <!-- Product 4 -->
+                <div class="product-item">
+                    <div class="card">
+                        <img src="images/5.jpg" class="card-img-top" alt="Baja Ringan Tipe B">
+                        <div class="card-body">
+                            <h5 class="card-title">Rangka Atap Baja Ringan Tipe B</h5>
+                            <p class="card-text">
+                                Ketebalan: 0.50mm<br>
+                                Panjang: 6 Meter<br>
+                                Warna: Galvanized
+                            </p>
+                            <button class="btn btn-primary">Detail Produk</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>    
+                <!-- Product 5 -->
+                   
+</section>
+
+<!-- Contact Section -->
+<section class="contact-section py-5" id="contact">
+    <div class="container">
+        <h2 class="section-title mb-5">Hubungi Kami</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Nama">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" rows="5" placeholder="Pesan"></textarea>
+                    </div>
+                    <button class="btn btn-primary">Kirim Pesan</button>
+                </form>
+            </div>
+            <div class="col-md-6 mt-4 mt-md-0">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Kantor Pusat</h5>
+                        <p class="card-text">
+                            Raya Daendles KM 82,3, Wedung, Sedayulawas,<br>
+                            Kec. Brondong, Kabupaten Lamongan, Jawa Timur 62263<br>
+                            Telp:  (0322) 4661516<br>
+                            Email: info@hanjayaperkasa.co.id
+                        </p>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3961.0215668380106!2d112.26075709999999!3d-6.888019900000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77c01f9557d731%3A0x4bfde2c97fff540a!2sPT.%20HAN%20JAYA%20PERKASA!5e0!3m2!1sen!2sid!4v1738303165429!5m2!1sen!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>" 
+                                
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-md-4 mb-4 mb-md-0">
+                <h5>PT Han jaya Perkasa</h5>
+                <p>Spesialis Baja Ringan Berkualitas</p>
+            </div>
+            <div class="col-md-4 mb-4 mb-md-0">
+                <h5>Link Cepat</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#home" class="text-white text-decoration-none">Beranda</a></li>
+                    <li><a href="#products" class="text-white text-decoration-none">Produk</a></li>
+                    <li><a href="#contact" class="text-white text-decoration-none">Kontak</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4">
+                <h5>Sertifikasi</h5>
+                <img src="images/sni1.png" alt="SNI" width="60">
+                
+                
+            </div>
+        </div>
+        <hr class="my-4">
+        <p>&copy; 2025 PT Han jaya Perkasa. All rights reserved.</p>
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Custom JS -->
+<script>
+    // Smooth scroll untuk navigasi
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
+
+    // Animasi saat scroll
+    window.addEventListener('scroll', function() {
+        const elements = document.querySelectorAll('.animate-on-scroll');
+        elements.forEach(element => {
+            const elementTop = element.getBoundingClientRect().top;
+            if (elementTop < window.innerHeight - 100) {
+                element.classList.add('fade-in');
+            }
+        });
+    });
+</script>
+
+</body>
+</html>
